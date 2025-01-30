@@ -1,0 +1,23 @@
+.portlayer{
+    position: absolute;
+    inset: 0px;
+    background-color: #1ABC9C;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.portimg:hover .portlayer{
+    opacity: 0.8;
+}
+
+.icons{
+    font-size: 100px;
+    color: white;
+}
+
+.bglayer{
+    background-color: #C2DBFE;
+}
